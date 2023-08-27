@@ -75,7 +75,6 @@ nav ul li a:hover {
 }
 /* Header - Main-header*/
 #main-header {
-    border: 1px solid green;
     align-items: center;
     text-align: center;
     margin: 0 10rem;
@@ -110,9 +109,8 @@ p.citation {
 }
 .section-header {
     font-size: 1.5rem;
-    font-weight: 200;
+    font-weight: 700;
     text-transform: uppercase;
-    border: 1px solid yellow;
     padding-left: 3rem;
 }
 /* -------------------------------------> Index.html @UnitedAsOneItems<------------------------------------- */
@@ -221,7 +219,6 @@ p.numbers {
     color: rgba(51, 51, 51);
     padding-bottom: 2.5rem;
 }
-
 .product-design img {
     max-width: 100%;
     height: min-content;
