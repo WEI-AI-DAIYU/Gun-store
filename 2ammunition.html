@@ -6,307 +6,287 @@
     <meta name="description" content="Online shop Portfolio">
     <meta name="Author" content="Jes Santerson L. Domisiw">
 
-    <link rel="icon" type="image/svg+xml" href="image/logo/logo.png">
-    <title>Fire Force</title>
+    <link rel="icon" href="/image/logo/logo.png">
 
-    <link rel="stylesheet" href="css/index.css">
-    <link rel="stylesheet" src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'>
+
     <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'>
+    
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ropa+Sans:ital@0;1&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Stardos+Stencil:wght@400;700&display=swap" rel="stylesheet">
 
+    <link rel="stylesheet" href="/css/main.css">
+    <script src="/javascript/index.js" defer></script>
 </head>
 <body>
-    <navbar>
-        <a class= "logo-link" href="index.html">
-            <img class="logo" content="https://similarpng.com/two-gun-revolver-cross-logo-vector-png/#google_vignette" src="image/logo/Two-gun-revolver-cross-logo-vector-PNG.png" alt="logo">
-            <ul class="logo-text">
-                <li class="one">Fire</li>
-                <li class="two">Force</li>
-                <li class="three"><i class='fa fa-fire'></i></li>
-            </ul>
-        </a>
-        <nav>
-            <ul>
-                <li><a href="">sale</a></li>
-                <li><a href="1firearms.html">fire arms</a></li>
-                <li><a href="2ammunition.html">ammunition</a></li>
-                <li><a href="3optics.html">optics</a></li>
-                <li><a href="4accessories.html">accessories</a></li>
-                <li><a href="5hunting.html">hunting</a></li>
-                <li><a href="6knives.html">knives</a></li>
-            </ul>
-        </nav>
-    </navbar>
-    <div id="free-space">
-        <p>free-space</p>
+                    <!---------- Navbar ---------->
+    <button class="scroll-button-up"><i class=" fa fa-arrow-up"></i></button>
+    <div id="navbar-container">
+        <div class="navbar-content">
+            <a href="index.html" class="logo">
+                <img content="https://similarpng.com/two-gun-revolver-cross-logo-vector-png/#google_vignette" src="image/logo/Two-gun-revolver-cross-logo-vector-PNG.png" alt="logo">
+                <div class="logo-container">
+                    <li class="one">Fire</li>
+                    <li class="two">Force</li>
+                    <li class="three"><i class='fa fa-fire'></i></li>
+                </div>
+            </a>
+            <nav>
+                <a href="1firearms.html">fire arms</a>
+                <a href="2ammunition.html">ammunition</a>
+                <a href="3optics.html">optics</a>
+                <a href="4accessories.html">accessories</a>
+                <a href="5hunting.html">hunting</a>
+                <a href="6knives.html">knives</a>
+                <button class="shopping-cart">
+                    <img src="/image/assets/shopping-cart.png" alt="shopping-cart-icon">
+                    <div class="number-of-shoppin-items">
+                        <p class="shopping-quantity">0</p>
+                    </div>
+                </button>
+                <button class="menu"><img src="/image/assets/menu-icon.svg" alt="menu"></button>
+            </nav>
+        </div>
     </div>
-    <header id="mini-header">
-        <h3 class="section-header"><a href="index.html">Store</a> &#62 ammunition</h3>
-    </header>
-    <section id="content-platform">
-        <section class="contents">
-            <h3 class="main-content">ammunition</h3>
-                <ul class="sub-content">
-                    <li><a href="#colt">colt &#169</a></li>
-                    <li><a href="#federal">federal</a></li>
-                    <li><a href="#remington">remington</a></li>
-                    <li><a href="#zuber">zuber &#169</a></li>
-                </ul>
-        </section>
-
+                <!---------- End of Navbar ---------->
+    <div class="main-container">
+        <div class="store-container">
+            <div class="store-content-root">
+                <section class="store-content tablet">
+                    <button class="tablet-menu"><i class="fa fa-arrow-right"></i></button>
+                    <a href="#colt">colt</a>
+                    <a href="#federal">federal</a>
+                    <a href="#remington">remington</a>
+                    <a href="#zuber">zuber</a>
+                </section>
+            </div>
+            <section class="store-items">
                 <!----- Colt ----->
-        <section id="colt">
-            <section class="product-design">
-                <div>
-                    <a href="">
-                        <img src="image/ammunition/colt/Colt Ammo 9MM 124GR. FMJ (50 Rounds).jpg"
-                        content="https://images.squarespace-cdn.com/content/v1/5b8fcf574eddec5fb52b1e57/1547091204268-48WP7VJTJ7VYWE3PJLZL/9MM+FMJ.jpg?format=500w"
+                <section id="colt" class="store-items-container">
+                    <div class="item-card" id="">
+                        <img src="image/ammunition/colt/Colt Ammo 9MM 124GR. FMJ (50 Rounds).jpg" 
                         alt="Colt Ammo 9MM 124GR. FMJ (50 Rounds)">
-                        <p class="numbers">01</p>
-                        <h4>Colt Ammo 9MM 124GR. FMJ <br>(50 Rounds)</h4>
-                        <p>$29.60</p>
-                    </a>
-                </div>
-                <div>
-                    <a href="">
-                        <img src="image/ammunition/colt/Colt Ammo 45 ACP 230GR. FMJ (50 Rounds).jpg"
-                        content="https://images.squarespace-cdn.com/content/v1/5b8fcf574eddec5fb52b1e57/1547092341667-TYSZQLTARPVNXG3QCDWC/45+Cal+FMJ.jpg?format=500w"
+                        <div class="item-card-info">
+                            <p class="number">01</p>
+                            <h2>Colt Ammo 9MM 124GR. FMJ <br>(50 Rounds)</h2>
+                            <p class="price">$29.60</p>
+                            <button class="add-to-cart">add to cart</button>
+                        </div>
+                    </div>
+                    <div class="item-card" id="">
+                        <img src="image/ammunition/colt/Colt Ammo 45 ACP 230GR. FMJ (50 Rounds).jpg" 
                         alt="Colt Ammo 45 ACP 230GR. FMJ (50 Rounds)">
-                        <p class="numbers">02</p>
-                        <h4>Colt Ammo 45 ACP 230GR. FMJ <br>(50 Rounds)</h4>
-                        <p>$26.25</p>
-                    </a>
-                </div>
-                <div>
-                    <a href="">
-                        <img src="image/ammunition/colt/Colt Ammo 45 ACP 230GR. JHP (20 Rounds).jpg"
-                        content="https://images.squarespace-cdn.com/content/v1/5b8fcf574eddec5fb52b1e57/1547092369363-J3GCGE1CQGL2H9J5WH86/45+Cal+JHP.jpg?format=500w"
+                        <div class="item-card-info">
+                            <p class="number">02</p>
+                            <h2>Colt Ammo 45 ACP 230GR. FMJ <br>(50 Rounds)</h2>
+                            <p class="price">$26.25</p>
+                            <button class="add-to-cart">add to cart</button>
+                        </div>
+                    </div>
+                    <div class="item-card" id="">
+                        <img src="image/ammunition/colt/Colt Ammo 45 ACP 230GR. JHP (20 Rounds).jpg" 
                         alt="Colt Ammo 45 ACP 230GR. JHP (20 Rounds)">
-                        <p class="numbers">03</p>
-                        <h4>Colt Ammo 45 ACP 230GR. JHP <br>(20 Rounds)</h4>
-                        <p>$25.00</p>
-                    </a>
-                </div>
-                <div>
-                    <a href="">
-                        <img src="image/ammunition/colt/Colt Ammo 380 ACP 90GR. JHP (20 Rounds).jpg"
-                        content="https://images.squarespace-cdn.com/content/v1/5b8fcf574eddec5fb52b1e57/1547093085420-4SV985AJ6WL1K86MYZF1/380+JHP.jpg?format=500w"
+                        <div class="item-card-info">
+                            <p class="number">03</p>
+                            <h2>Colt Ammo 45 ACP 230GR. JHP <br>(20 Rounds)</h2>
+                            <p class="price">$25.00</p>
+                            <button class="add-to-cart">add to cart</button>
+                        </div>
+                    </div>
+                    <div class="item-card" id="">
+                        <img src="image/ammunition/colt/Colt Ammo 380 ACP 90GR. JHP (20 Rounds).jpg" 
                         alt="Colt Ammo 380 ACP 90GR. JHP (20 Rounds)">
-                        <p class="numbers">04</p>
-                        <h4>Colt Ammo 380 ACP 90GR. JHP <br>(20 Rounds)</h4>
-                        <p>$23.50</p>
-                    </a>
-                </div>
-                <div>
-                    <a href="">
-                        <img src="image/ammunition/colt/Colt Ammo 40 S&W 180GR. FMJ (50 Rounds).jpg"
-                        content="https://images.squarespace-cdn.com/content/v1/5b8fcf574eddec5fb52b1e57/1547092126222-B30P4XNJXDJGFH8HVJXP/40+S%26W+FMJ.jpg?format=500w"
+                        <div class="item-card-info">
+                            <p class="number">04</p>
+                            <h2>Colt Ammo 380 ACP 90GR. JHP <br>(20 Rounds)</h2>
+                            <p class="price">$23.50</p>
+                            <button class="add-to-cart">add to cart</button>
+                        </div>
+                    </div>
+                    <div class="item-card" id="">
+                        <img src="image/ammunition/colt/Colt Ammo 40 S_W 180GR. FMJ (50 Rounds).jpg" 
                         alt="Colt Ammo 40 S&W 180GR. FMJ (50 Rounds)">
-                        <p class="numbers">05</p>
-                        <h4>Colt Ammo 40 S&W 180GR. FMJ <br>(50 Rounds)</h4>
-                        <p>$79.99</p>
-                    </a>
-                </div>
-            </section>
-        </section>
-        <!-- Free space div-->
-        <div class="free-space"></div>
-        <!-- Free space div-->
-
+                        <div class="item-card-info">
+                            <p class="number">05</p>
+                            <h2>Colt Ammo 40 S&W 180GR. FMJ <br>(50 Rounds)</h2>
+                            <p class="price">$79.99</p>
+                            <button class="add-to-cart">add to cart</button>
+                        </div>
+                    </div>
+                </section>
                 <!----- federal ----->
-        <section id="federal">
-            <section class="product-design">
-                <div>
-                    <a href="">
-                        <img src="image/ammunition/federal/Federal Power Shok .222 REM 55Gr Soft Point 50 Rounds.jpg"
-                        content="https://img2.activant-inet.com/custom/058686/Thumb/t222A.jpg"
+                <section id="federal" class="store-items-container">
+                    <div class="item-card" id="">
+                        <img src="image/ammunition/federal/Federal Power Shok .222 REM 55Gr Soft Point 50 Rounds.jpg" 
                         alt="Federal Power Shok .222 REM 55Gr Soft Point 50 Rounds">
-                        <p class="numbers">01</p>
-                        <h4>Federal Power Shok .222 REM 55Gr Soft Point 50 Rounds</h4>
-                        <p>$35.99</p>
-                    </a>
-                </div>
-                <div>
-                    <a href="">
-                        <img src="image/ammunition/federal/Federal Power Shok .22-250 55GR Soft Point 20 Rounds.jpg"
-                        content="https://img2.activant-inet.com/custom/058686/Thumb/t22250A.jpg"
+                        <div class="item-card-info">
+                            <p class="number">01</p>
+                            <h2>Federal Power Shok .222 REM 55Gr Soft Point 50 Rounds</h2>
+                            <p class="price">$35.99</p>
+                            <button class="add-to-cart">add to cart</button>
+                        </div>
+                    </div>
+                    <div class="item-card" id="">
+                        <img src="image/ammunition/federal/Federal Power Shok .22-250 55GR Soft Point 20 Rounds.jpg" 
                         alt="Federal Power Shok .22-250 55GR Soft Point 20 Rounds">
-                        <p class="numbers">02</p>
-                        <h4>Federal Power Shok .22-250 55GR Soft Point 20 Rounds</h4>
-                        <p>$37.99</p>
-                    </a>
-                </div>
-                <div>
-                    <a href="">
-                        <img src="image/ammunition/federal/Federal Champion Ammo 22 LR Copper Plated HP.jpg"
-                        content="https://img2.activant-inet.com/custom/058686/Thumb/t725.jpg"
+                        <div class="item-card-info">
+                            <p class="number">02</p>
+                            <h2>Federal Power Shok .22-250 55GR Soft Point 20 Rounds</h2>
+                            <p class="price">$37.99</p>
+                            <button class="add-to-cart">add to cart</button>
+                        </div>
+                    </div>
+                    <div class="item-card" id="">
+                        <img src="image/ammunition/federal/Federal Champion Ammo 22 LR Copper Plated HP.jpg" 
                         alt="Federal Champion Ammo 22 LR Copper Plated HP">
-                        <p class="numbers">03</p>
-                        <h4>Federal Champion Ammo 22 LR Copper Plated HP</h4>
-                        <p>$39.99</p>
-                    </a>
-                </div>
-                <div>
-                    <a href="">
-                        <img src="image/ammunition/federal/Federal 243 WIN 100GR Non Typical Soft Point.jpg"
-                        content="https://img2.activant-inet.com/custom/058686/Thumb/t243DT100.jpg"
+                        <div class="item-card-info">
+                            <p class="number">03</p>
+                            <h2>Federal Champion Ammo 22 LR Copper Plated HP</h2>
+                            <p class="price">$39.99</p>
+                            <button class="add-to-cart">add to cart</button>
+                        </div>
+                    </div>
+                    <div class="item-card" id="">
+                        <img src="image/ammunition/federal/Federal 243 WIN 100GR Non Typical Soft Point.jpg" 
                         alt="Federal 243 WIN 100GR Non Typical Soft Point">
-                        <p class="numbers">04</p>
-                        <h4>Federal 243 WIN 100GR Non Typical Soft Point</h4>
-                        <p>$34.99</p>
-                    </a>
-                </div>
-                <div>
-                    <a href="">
-                        <img src="image/ammunition/federal/Federal 300 Win Mag 180gr Soft Point.jpg"
-                        content="https://img2.activant-inet.com/custom/058686/Thumb/t300WDT180.jpg"
+                        <div class="item-card-info">
+                            <p class="number">04</p>
+                            <h2>Federal 243 WIN 100GR Non Typical Soft Point</h2>
+                            <p class="price">$34.99</p>
+                            <button class="add-to-cart">add to cart</button>
+                        </div>
+                    </div>
+                    <div class="item-card" id="">
+                        <img src="image/ammunition/federal/Federal 300 Win Mag 180gr Soft Point.jpg" 
                         alt="Federal 300 Win Mag 180gr Soft Point">
-                        <p class="numbers">05</p>
-                        <h4>Federal 300 Win <br>Mag 180gr <br>Soft Point</h4>
-                        <p>$45.99</p>
-                    </a>
-                </div>
-                <div>
-                    <a href="">
-                        <img src="image/ammunition/federal/Federal 17HMR 17GR TNT 250 Bottle.jpg"
-                        content="https://img2.activant-inet.com/custom/058686/Thumb/t770BTL250.jpg"
+                        <div class="item-card-info">
+                            <p class="number">05</p>
+                            <h2>Federal 300 Win <br>Mag 180gr <br>Soft Point</h2>
+                            <p class="price">$45.99</p>
+                            <button class="add-to-cart">add to cart</button>
+                        </div>
+                    </div>
+                    <div class="item-card" id="">
+                        <img src="image/ammunition/federal/Federal 17HMR 17GR TNT 250 Bottle.jpg" 
                         alt="Federal 17HMR 17GR TNT 250 Bottle">
-                        <p class="numbers">06</p>
-                        <h4>Federal 17HMR <br>17GR TNT <br>250 Bottle</h4>
-                        <p>$78.99</p>
-                    </a>
-                </div>
-                <div>
-                    <a href="">
-                        <img src="image/ammunition/federal/Federal Power Shok 7MM 150GR Soft Point 20 Rounds.jpg"
-                        content="https://img2.activant-inet.com/custom/058686/Thumb/t7RA.jpg"
+                        <div class="item-card-info">
+                            <p class="number">06</p>
+                            <h2>Federal 17HMR <br>17GR TNT <br>250 Bottle</h2>
+                            <p class="price">$78.99</p>
+                            <button class="add-to-cart">add to cart</button>
+                        </div>
+                    </div>
+                    <div class="item-card" id="">
+                        <img src="image/ammunition/federal/Federal Power Shok 7MM 150GR Soft Point 20 Rounds.jpg" 
                         alt="Federal Power Shok 7MM 150GR Soft Point 20 Rounds">
-                        <p class="numbers">07</p>
-                        <h4>Federal Power Shok 7MM 150GR Soft Point 20 Rounds</h4>
-                        <p>$48.99</p>
-                    </a>
-                </div>
-                <div>
-                    <a href="">
-                        <img src="image/ammunition/federal/AMMO, AE 224 VALKYRIE 75GR.jpg"
-                        content="https://img2.activant-inet.com/custom/058686/Thumb/tAE223G.jpg"
+                        <div class="item-card-info">
+                            <p class="number">07</p>
+                            <h2>Federal Power Shok 7MM 150GR Soft Point 20 Rounds</h2>
+                            <p class="price">$48.99</p>
+                            <button class="add-to-cart">add to cart</button>
+                        </div>
+                    </div>
+                    <div class="item-card" id="">
+                        <img src="image/ammunition/federal/AMMO, AE 224 VALKYRIE 75GR.jpg" 
                         alt="AMMO, AE 224 VALKYRIE 75GR">
-                        <p class="numbers">08</p>
-                        <h4>AMMO, AE 224 <br>VALKYRIE <br>75GR</h4>
-                        <p>$23.99</p>
-                    </a>
-                </div>
-            </section>
-            
-        </section>
-        <!-- Free space div-->
-        <div class="free-space"></div>
-        <!-- Free space div-->
-
+                        <div class="item-card-info">
+                            <p class="number">08</p>
+                            <h2>AMMO, AE 224 <br>VALKYRIE <br>75GR</h2>
+                            <p class="price">$23.99</p>
+                            <button class="add-to-cart">add to cart</button>
+                        </div>
+                    </div>
+                </section>
                 <!----- remington ----->
-        <section id="remington">
-            <section class="product-design">
-                <div>
-                    <a href="">
-                        <img src="image/ammunition/remington/Remington HD .410GA 3 5 Pellet 000 BUCK.jpg"
-                        content="https://img2.activant-inet.com/custom/058686/Thumb/t413B000HD.jpg"
+                <section id="remington" class="store-items-container">
+                    <div class="item-card" id="">
+                        <img src="image/ammunition/remington/Remington HD .410GA 3 5 Pellet 000 BUCK.jpg" 
                         alt="Remington HD .410GA 3 5 Pellet 000 BUCK, 15/BOX">
-                        <p class="numbers">01</p>
-                        <h4>Remington HD .410GA 3" 5 Pellet 000 BUCK, 15/BOX</h4>
-                        <p>$27.99</p>
-                    </a>
-                </div>
-                <div>
-                    <a href="">
-                        <img src="image/ammunition/remington/Remington Express Magnum Buckshot 12 ga 2.75.jpg"
-                        content="https://img2.activant-inet.com/custom/058686/Thumb/t12SB00.jpg"
+                        <div class="item-card-info">
+                            <p class="number">01</p>
+                            <h2>Remington HD .410GA 3 5 Pellet 000 BUCK, 15/BOX</h2>
+                            <p class="price">$27.99</p>
+                            <button class="add-to-cart">add to cart</button>
+                        </div>
+                    </div>
+                    <div class="item-card" id="">
+                        <img src="image/ammunition/remington/Remington Express Magnum Buckshot 12 ga 2.75.jpg" 
                         alt="Remington Express Magnum Buckshot 12 ga 2.75">
-                        <p class="numbers">02</p>
-                        <h4>Remington Express Magnum Buckshot 12 ga 2.75</h4>
-                        <p>$10.99</p>
-                    </a>
-                </div>
-                <div>
-                    <a href="">
-                        <img src="image/ammunition/remington/Remington 38 Special MC 130GR 300RDS (BUCKETS).jpg"
-                        content="https://img2.activant-inet.com/custom/058686/Thumb/tL38S11BC.jpg"
+                        <div class="item-card-info">
+                            <p class="number">02</p>
+                            <h2>Remington Express Magnum Buckshot 12 ga 2.75</h2>
+                            <p class="price">$10.99</p>
+                            <button class="add-to-cart">add to cart</button>
+                        </div>
+                    </div>
+                    <div class="item-card" id="">
+                        <img src="image/ammunition/remington/Remington 38 Special MC 130GR 300RDS (BUCKETS).jpg" 
                         alt="Remington 38 Special MC 130GR 300RDS ***BUCKETS**">
-                        <p class="numbers">03</p>
-                        <h4>Remington 38 Special MC 130GR 300RDS ***BUCKETS**</h4>
-                        <p>$249.99</p>
-                    </a>
-                </div>
-                <div>
-                    <a href="">
-                        <img src="image/ammunition/remington/Remington 20GA 3 1 18OZ 5 Premier Magnum Turkey HV.jpg"
-                        content=""
+                        <div class="item-card-info">
+                            <p class="number">03</p>
+                            <h2>Remington 38 Special MC 130GR 300RDS ***BUCKETS**</h2>
+                            <p class="price">$249.99</p>
+                            <button class="add-to-cart">add to cart</button>
+                        </div>
+                    </div>
+                    <div class="item-card" id="">
+                        <img src="image/ammunition/remington/Remington 20GA 3 1 18OZ 5 Premier Magnum Turkey HV.jpg" 
                         alt="Remington 20GA 3 1/1 8OZ #5 Premier Magnum Turkey HV">
-                        <p class="numbers">04</p>
-                        <h4>Remington 20GA 3" 1 1/8OZ #5 Premier Magnum Turkey HV</h4>
-                        <p>$10.99</p>
-                    </a>
-                </div>
-                <div>
-                    <a href="">
-                        <img src="image/ammunition/remington/Remington Game Loads 20GA 2 34 1225 FPS 78 oz 8.jpg"
-                        content="https://img2.activant-inet.com/custom/058686/Thumb/t20044.jpg"
+                        <div class="item-card-info">
+                            <p class="number">04</p>
+                            <h2>Remington 20GA 3 1/1 8OZ #5 Premier Magnum Turkey HV</h2>
+                            <p class="price">$10.99</p>
+                            <button class="add-to-cart">add to cart</button>
+                        </div>
+                    </div>
+                    <div class="item-card" id="">
+                        <img src="image/ammunition/remington/Remington Game Loads 20GA 2 34 1225 FPS 78 oz 8.jpg" 
                         alt="Remington Game Loads 20GA 2-3/4 1225 FPS 7/8 oz 8">
-                        <p class="numbers">05</p>
-                        <h4>Remington Game Loads 20GA 2-3/4" 1225 FPS 7/8 oz 8</h4>
-                        <p>$13.99</p>
-                    </a>
-                </div>
-                <div>
-                    <a href="">
-                        <img src=""
-                        content=""
-                        alt="">
-                        <p class="numbers"></p>
-                        <h4></h4>
-                        <p></p>
-                    </a>
-                </div>
-            </section>
-        </section>
-        <!-- Free space div-->
-        <div class="free-space"></div>
-        <!-- Free space div-->
-
+                        <div class="item-card-info">
+                            <p class="number">05</p>
+                            <h2>Remington Game Loads 20GA 2-3/4 1225 FPS 7/8 oz 8</h2>
+                            <p class="price">$13.99</p>
+                            <button class="add-to-cart">add to cart</button>
+                        </div>
+                    </div>
+                </section>
                 <!----- Zuber ----->
-        <section id="zuber">
-            <section class="product-design">
-                <div>
-                    <a href="">
-                        <img src="image/ammunition/zuber/Zuber 12 Gauge 70mm 34GR..jpg"
-                        content="https://images.squarespace-cdn.com/content/v1/5b8fcf574eddec5fb52b1e57/1567409751955-16E3IVT1ACT7IQ1ZCGIX/Zuber+34GR.jpg?format=500w"
+                <section id="zuber" class="store-items-container">
+                    <div class="item-card" id="">
+                        <img src="image/ammunition/zuber/Zuber 12 Gauge 70mm 34GR..jpg" 
                         alt="Zuber 12 Gauge 70mm 34GR.">
-                        <p class="numbers">01</p>
-                        <h4>Zuber 12 Gauge 70mm 34GR.</h4>
-                        <p>$35.69</p>
-                    </a>
-                </div>
-                <div>
-                    <a href="">
-                        <img src="image/ammunition/zuber/Zuber 12 Gauge 70mm 32GR..jpg"
-                        content="https://images.squarespace-cdn.com/content/v1/5b8fcf574eddec5fb52b1e57/1567409791318-1BAK1FSTS7FD4L7JXB9Z/Zuber+32GR.jpg?format=500w"
+                        <div class="item-card-info">
+                            <p class="number">01</p>
+                            <h2>Zuber 12 Gauge 70mm 34GR.</h2>
+                            <p class="price">$35.69</p>
+                            <button class="add-to-cart">add to cart</button>
+                        </div>
+                    </div>
+                    <div class="item-card" id="">
+                        <img src="image/ammunition/zuber/Zuber 12 Gauge 70mm 32GR..jpg" 
                         alt="Zuber 12 Gauge 70mm 32GR.">
-                        <p class="numbers">02</p>
-                        <h4>Zuber 12 Gauge 70mm 32GR.</h4>
-                        <p>$34.25</p>
-                    </a>
-                </div>
+                        <div class="item-card-info">
+                            <p class="number">02</p>
+                            <h2>Zuber 12 Gauge 70mm 32GR.</h2>
+                            <p class="price">34.25</p>
+                            <button class="add-to-cart">add to cart</button>
+                        </div>
+                    </div>
+                </section>
             </section>
-        </section>
-        <!-- Free space div-->
-        <div class="free-space"></div>
-        <!-- Free space div-->
-    </section>
-
+        </div>
+    </div>
     <footer>
-        <h3>copyright &#169 2023 fireforce.</h2>
-        <p>all rights reserved</p>
+        <div class="footer-container">
+            <h3>copyright &#169 2023 fireforce.</h2>
+            <p>all rights reserved</p>
+        </div>
     </footer>
 </body>
 </html>

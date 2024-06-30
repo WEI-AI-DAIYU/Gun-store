@@ -6,378 +6,362 @@
     <meta name="description" content="Online shop Portfolio">
     <meta name="Author" content="Jes Santerson L. Domisiw">
 
-    <link rel="icon" type="image/svg+xml" href="image/logo/logo.png">
-    <title>Fire Force</title>
+    <link rel="icon" href="/image/logo/logo.png">
 
-    <link rel="stylesheet" href="css/index.css">
-    <link rel="stylesheet" src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'>
+
     <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'>
+    
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ropa+Sans:ital@0;1&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Stardos+Stencil:wght@400;700&display=swap" rel="stylesheet">
 
+    <link rel="stylesheet" href="/css/main.css">
+    <script src="/javascript/index.js" defer></script>
 </head>
 <body>
-    <navbar>
-        <a class= "logo-link" href="index.html">
-            <img class="logo" content="https://similarpng.com/two-gun-revolver-cross-logo-vector-png/#google_vignette" src="image/logo/Two-gun-revolver-cross-logo-vector-PNG.png" alt="logo">
-            <ul class="logo-text">
-                <li class="one">Fire</li>
-                <li class="two">Force</li>
-                <li class="three"><i class='fa fa-fire'></i></li>
-            </ul>
-        </a>
-        <nav>
-            <ul>
-                <li><a href="">sale</a></li>
-                <li><a href="1firearms.html">fire arms</a></li>
-                <li><a href="2ammunition.html">ammunition</a></li>
-                <li><a href="3optics.html">optics</a></li>
-                <li><a href="4accessories.html">accessories</a></li>
-                <li><a href="5hunting.html">hunting</a></li>
-                <li><a href="6knives.html">knives</a></li>
-            </ul>
-        </nav>
-    </navbar>
-    <div id="free-space">
-        <p>free-space</p>
+                    <!---------- Navbar ---------->
+    <button class="scroll-button-up"><i class=" fa fa-arrow-up"></i></button>
+    <div id="navbar-container">
+        <div class="navbar-content">
+            <a href="index.html" class="logo">
+                <img content="https://similarpng.com/two-gun-revolver-cross-logo-vector-png/#google_vignette" src="image/logo/Two-gun-revolver-cross-logo-vector-PNG.png" alt="logo">
+                <div class="logo-container">
+                    <li class="one">Fire</li>
+                    <li class="two">Force</li>
+                    <li class="three"><i class='fa fa-fire'></i></li>
+                </div>
+            </a>
+            <nav>
+                <a href="1firearms.html">fire arms</a>
+                <a href="2ammunition.html">ammunition</a>
+                <a href="3optics.html">optics</a>
+                <a href="4accessories.html">accessories</a>
+                <a href="5hunting.html">hunting</a>
+                <a href="6knives.html">knives</a>
+                <button class="shopping-cart">
+                    <img src="/image/assets/shopping-cart.png" alt="shopping-cart-icon">
+                    <div class="number-of-shoppin-items">
+                        <p class="shopping-quantity">0</p>
+                    </div>
+                </button>
+                <button class="menu"><img src="/image/assets/menu-icon.svg" alt="menu"></button>
+            </nav>
+        </div>
     </div>
-    <header id="mini-header">
-        <h3 class="section-header"><a href="index.html">Store</a> &#62 optics</h3>
-    </header>
-    <section id="content-platform">
-        <section class="contents">
-            <h3 class="main-content">optics</h3>
-                <ul class="sub-content">
-                    <li><a href="#bushnell">bushnell</a></li>
-                    <li><a href="#butler-creek">butler creek</a></li>
-                    <li><a href="#sightrite">SightRite</a></li>
-                    <li><a href="#vortex">vortex</a></li>
-                    <li><a href="#weaver">weaver</a></li>
-                </ul>
-        </section>
-        <!----- Bushnell ----->        
-        <section id="bushnell">
-            <section class="product-design">
-                <div>
-                    <a href="">
-                        <img src="image/optics/bushnell/Bushnell PowerView Binocular 8x21mm.jpg"
-                        content="https://img2.activant-inet.com/custom/058686/Thumb/t132514.jpg"
+                <!---------- End of Navbar ---------->
+    <div class="main-container">
+        <div class="store-container">
+            <div class="store-content-root">
+                <section class="store-content tablet">
+                    <button class="tablet-menu"><i class="fa fa-arrow-right"></i></button>
+                    <a href="#bushnell">bushnell</a>
+                    <a href="#butler-creek">butler-creek</a>
+                    <a href="#sightrite">sightrite</a>
+                    <a href="#vortex">vortex</a>
+                    <a href="#weaver">weaver</a>
+                </section>
+            </div>
+            <section class="store-items">
+                <!----- Bushnell ----->
+                <section id="bushnell" class="store-items-container">
+                    <div class="item-card" id="">
+                        <img src="image/optics/bushnell/Bushnell PowerView Binocular 8x21mm.jpg" 
                         alt="Bushnell PowerView Binocular 8x21mm">
-                        <p class="numbers">01</p>
-                        <h4>Bushnell PowerView Binocular 8x21mm</h4>
-                        <p>$20.69</p>
-                    </a>
-                </div>
-                <div>
-                    <a href="">
-                        <img src="image/optics/bushnell/Bushnell Bone Collector 850 LRF Realtree Edge 6x24.jpg"
-                        content="https://img2.activant-inet.com/custom/058686/Thumb/t202209.jpg"
+                        <div class="item-card-info">
+                            <p class="number">01</p>
+                            <h2>Bushnell PowerView Binocular 8x21mm</h2>
+                            <p class="price">$20.69</p>
+                            <button class="add-to-cart">add to cart</button>
+                        </div>
+                    </div>
+                    <div class="item-card" id="">
+                        <img src="image/optics/bushnell/Bushnell Bone Collector 850 LRF Realtree Edge 6x24.jpg" 
                         alt="Bushnell Bone Collector 850 LRF Realtree Edge 6x24">
-                        <p class="numbers">02</p>
-                        <h4>Bushnell Bone Collector 850 LRF Realtree Edge 6x24</h4>
-                        <p>$206.99</p>
-                    </a>
-                </div>
-                <div>
-                    <a href="">
-                        <img src="image/optics/bushnell/Bushnell Scout DX 1000 Laser Rangefinder RealTree Camo.jpg"
-                        content="https://img2.activant-inet.com/custom/058686/Thumb/t202356.jpg"
+                        <div class="item-card-info">
+                            <p class="number">02</p>
+                            <h2>Bushnell Bone Collector 850 LRF Realtree Edge 6x24</h2>
+                            <p class="price">$206.99</p>
+                            <button class="add-to-cart">add to cart</button>
+                        </div>
+                    </div>
+                    <div class="item-card" id="">
+                        <img src="image/optics/bushnell/Bushnell Scout DX 1000 Laser Rangefinder RealTree Camo.jpg" 
                         alt="Bushnell Scout DX 1000 Laser Rangefinder RealTree Camo">
-                        <p class="numbers">03</p>
-                        <h4>Scout DX 1000 Laser Rangefinder RealTree Camo</h4>
-                        <p>$359.99</p>
-                    </a>
-                </div>
-                <div>
-                    <a href="">
-                        <img src="image/optics/bushnell/Bushnell Magnetic Laser Bore Sighter All Caliber.jpg"
-                        content="https://img2.activant-inet.com/custom/058686/Thumb/t740001C.jpg"
+                        <div class="item-card-info">
+                            <p class="number">03</p>
+                            <h2>Bushnell Scout DX 1000 Laser Rangefinder RealTree Camo</h2>
+                            <p class="price">$359.99</p>
+                            <button class="add-to-cart">add to cart</button>
+                        </div>
+                    </div>
+                    <div class="item-card" id="">
+                        <img src="image/optics/bushnell/Bushnell Magnetic Laser Bore Sighter All Caliber.jpg" 
                         alt="Bushnell Magnetic Laser Bore Sighter All Caliber">
-                        <p class="numbers">04</p>
-                        <h4>Magnetic Laser Bore Sighter All Caliber</h4>
-                        <p>$53.99</p>
-                    </a>
-                </div>
-                <div>
-                    <a href="">
-                        <img src="image/optics/bushnell/Bushnell Trophy 4-12x40mm DOA 600.jpg"
-                        content="https://img2.activant-inet.com/custom/058686/Thumb/t75-4120B.jpg"
+                        <div class="item-card-info">
+                            <p class="number">04</p>
+                            <h2>Bushnell Magnetic Laser Bore Sighter All Caliber</h2>
+                            <p class="price">$53.99</p>
+                            <button class="add-to-cart">add to cart</button>
+                        </div>
+                    </div>
+                    <div class="item-card" id="">
+                        <img src="image/optics/bushnell/Bushnell Trophy 4-12x40mm DOA 600.jpg" 
                         alt="Bushnell Trophy 4-12x40mm DOA 600">
-                        <p class="numbers">05</p>
-                        <h4>Bushnell Trophy 4-12x40mm DOA 600</h4>
-                        <p>$179.99</p>
-                    </a>
-                </div>
-                <div>
-                    <a href="">
-                        <img src="image/optics/bushnell/Bushnell HDMR2 H59 Scope 3.5-21x50.jpg"
-                        content="https://img2.activant-inet.com/custom/058686/Thumb/tET36215H.jpg"
+                        <div class="item-card-info">
+                            <p class="number">05</p>
+                            <h2>Bushnell Trophy 4-12x40mm DOA 600</h2>
+                            <p class="price">$179.99</p>
+                            <button class="add-to-cart">add to cart</button>
+                        </div>
+                    </div>
+                    <div class="item-card" id="">
+                        <img src="image/optics/bushnell/Bushnell HDMR2 H59 Scope 3.5-21x50.jpg" 
                         alt="Bushnell HDMR2 H59 Scope 3.5-21x50">
-                        <p class="numbers">06</p>
-                        <h4>Bushnell HDMR2 H59 Scope 3.5-21x50</h4>
-                        <p>$1,525.49</p>
-                    </a>
-                </div>
-                <div>
-                    <a href="">
-                        <img src="image/optics/bushnell/Bushnell RXS-250 Reflex Sight.jpg"
-                        content="https://img2.activant-inet.com/custom/058686/Thumb/tRXS250.jpg"
+                        <div class="item-card-info">
+                            <p class="number">06</p>
+                            <h2>Bushnell HDMR2 H59 Scope 3.5-21x50</h2>
+                            <p class="price">$1,525.49</p>
+                            <button class="add-to-cart">add to cart</button>
+                        </div>
+                    </div>
+                    <div class="item-card" id="">
+                        <img src="image/optics/bushnell/Bushnell RXS-250 Reflex Sight.jpg" 
                         alt="Bushnell RXS-250 Reflex Sight">
-                        <p class="numbers">07</p>
-                        <h4>Bushnell RXS-250 Reflex Sight</h4>
-                        <p>$314.99</p>
-                    </a>
-                </div>
-            </section>
-        </section>
-        <!-- Free space div-->
-        <div class="free-space"></div>
-        <!-- Free space div-->
-
-        <!----- Butler Creek ----->        
-        <section id="butler-creek">
-            <section class="product-design">
-                <div>
-                    <a href="">
+                        <div class="item-card-info">
+                            <p class="number">07</p>
+                            <h2>Bushnell RXS-250 Reflex Sight</h2>
+                            <p class="price">$314.99</p>
+                            <button class="add-to-cart">add to cart</button>
+                        </div>
+                    </div>
+                </section>
+                <!----- Butler Creek ----->
+                <section id="butler-creek" class="store-items-container">
+                    <div class="item-card" id="">
                         <img src="image/optics/butler-creek/Butler Creek Bino Caddy.jpg" 
-                        content="https://img2.activant-inet.com/custom/058686/Thumb/t16123.jpg"
                         alt="Butler Creek Bino Caddy">
-                        <p class="numbers">01</p>
-                        <h4>Butler Creek Bino Caddy</h4>
-                        <p>$17.99</p>
-                    </a>
-                </div>
-                <div>
-                    <a href="">
+                        <div class="item-card-info">
+                            <p class="number">01</p>
+                            <h2>Butler Creek Bino Caddy</h2>
+                            <p class="price">$17.99</p>
+                            <button class="add-to-cart">add to cart</button>
+                        </div>
+                    </div>
+                    <div class="item-card" id="">
                         <img src="image/optics/butler-creek/Tini Bikini Scope Cover.jpg" 
-                        content="https://img2.activant-inet.com/custom/058686/Thumb/t19001.jpg"
                         alt="Tini Bikini Scope Cover">
-                        <p class="numbers">02</p>
-                        <h4>Tini Bikini Scope Cover</h4>
-                        <p>$8.99</p>
-                    </a>
-                </div>
-                <div>
-                    <a href="">
+                        <div class="item-card-info">
+                            <p class="number">02</p>
+                            <h2>Tini Bikini Scope Cover</h2>
+                            <p class="price">$8.99</p>
+                            <button class="add-to-cart">add to cart</button>
+                        </div>
+                    </div>
+                    <div class="item-card" id="">
                         <img src="image/optics/butler-creek/Butler Creek Multiflex 25-26-27 Scope Cover.jpg" 
-                        content="https://img2.activant-inet.com/custom/058686/Thumb/t32021.jpg"
                         alt="Butler Creek Multiflex 25-26-27 Scope Cover">
-                        <p class="numbers">03</p>
-                        <h4>Multiflex 25-26-27 Scope Cover</h4>
-                        <p>$12.99</p>
-                    </a>
-                </div>
-                <div>
-                    <a href="">
+                        <div class="item-card-info">
+                            <p class="number">03</p>
+                            <h2>Multiflex 25-26-27 Scope Cover</h2>
+                            <p class="price">$12.99</p>
+                            <button class="add-to-cart">add to cart</button>
+                        </div>
+                    </div>
+                    <div class="item-card" id="">
                         <img src="image/optics/butler-creek/Butler Creek Quick Detach EP.jpg" 
-                        content="https://img2.activant-inet.com/custom/058686/Thumb/t40031B.jpg"
                         alt="Butler Creek Quick Detach EP">
-                        <p class="numbers">04</p>
-                        <h4>Butler Creek Quick Detach EP</h4>
-                        <p>$14.99</p>
-                    </a>
-                </div>
-            </section>
-        </section>
-        <!-- Free space div-->
-        <div class="free-space"></div>
-        <!-- Free space div-->
-
-        <!----- SightRite -----> 
-        <section id="sightrite">
-            <section class="product-design">
-                <div>
-                    <a href="">
+                        <div class="item-card-info">
+                            <p class="number">04</p>
+                            <h2>Quick Detach EP</h2>
+                            <p class="price">$14.99</p>
+                            <button class="add-to-cart">add to cart</button>
+                        </div>
+                    </div>
+                </section>
+                <!----- SightRite ----->
+                <section id="sightrite" class="store-items-container">
+                    <div class="item-card" id="">
                         <img src="image/optics/sightrite/Sight-Rite .22-.250 RM Laser Bore Sighter.jpg" 
-                        content="https://img2.activant-inet.com/custom/058686/Thumb/tXSI-BL-250.jpg"
                         alt="Sight-Rite .22-.250 RM Laser Bore Sighter">
-                        <p class="numbers">01</p>
-                        <h4>Sight-Rite .22-.250 RM Laser Bore <br>Sighter</h4>
-                        <p>$39.99</p>
-                    </a>
-                </div>
-                <div>
-                    <a href="">
+                        <div class="item-card-info">
+                            <p class="number">01</p>
+                            <h2>Sight-Rite .22-.250 RM Laser Bore Sighter</h2>
+                            <p class="price">$39.99</p>
+                            <button class="add-to-cart">add to cart</button>
+                        </div>
+                    </div>
+                    <div class="item-card" id="">
                         <img src="image/optics/sightrite/Sight-Rite 30-30 WIN Laser Bore Sighter.jpg" 
-                        content="https://img2.activant-inet.com/custom/058686/Thumb/tXSI-BL-30-30.jpg"
                         alt="Sight-Rite 30-30 WIN Laser Bore Sighter">
-                        <p class="numbers">02</p>
-                        <h4>Sight-Rite 30-30 WIN Laser Bore <br>Sighter</h4>
-                        <p>$39.99</p>
-                    </a>
-                </div>
-                <div>
-                    <a href="">
+                        <div class="item-card-info">
+                            <p class="number">02</p>
+                            <h2>Sight-Rite 30-30 WIN Laser Bore Sighter</h2>
+                            <p class="price">$39.99</p>
+                            <button class="add-to-cart">add to cart</button>
+                        </div>
+                    </div>
+                    <div class="item-card" id="">
                         <img src="image/optics/sightrite/Sight-Rite 6.5 Creedmoor Laser Bore Sighter.jpg" 
-                        content="https://img2.activant-inet.com/custom/058686/Thumb/tXSI-BL-6.5-CR.jpg"
                         alt="Sight-Rite 6.5 Creedmoor Laser Bore Sighter">
-                        <p class="numbers">03</p>
-                        <h4>Sight-Rite 6.5 Creedmoor Laser Bore Sighter</h4>
-                        <p>$39.99</p>
-                    </a>
-                </div>
-                <div>
-                    <a href="">
+                        <div class="item-card-info">
+                            <p class="number">03</p>
+                            <h2>Sight-Rite 6.5 Creedmoor Laser Bore Sighter</h2>
+                            <p class="price">$39.99</p>
+                            <button class="add-to-cart">add to cart</button>
+                        </div>
+                    </div>
+                    <div class="item-card" id="">
                         <img src="image/optics/sightrite/Sight-Rite Basic End of Muzzle Laser Bore Sighter.jpg" 
-                        content="https://img2.activant-inet.com/custom/058686/Thumb/tXSI-LBK2.jpg"
                         alt="Sight-Rite Basic End of Muzzle Laser Bore Sighter">
-                        <p class="numbers">04</p>
-                        <h4>Sight-Rite Basic End of Muzzle Laser Bore Sighter</h4>
-                        <p>$39.99</p>
-                    </a>
-                </div>
-            </section>
-        </section>
-        <!-- Free space div-->
-        <div class="free-space"></div>
-        <!-- Free space div-->
-
-        <!----- Vortex -----> 
-        <section id="vortex">
-            <section class="product-design">
-                <div>
-                    <a href="">
+                        <div class="item-card-info">
+                            <p class="number">04</p>
+                            <h2>Sight-Rite Basic End of Muzzle Laser Bore Sighter</h2>
+                            <p class="price">$39.99</p>
+                            <button class="add-to-cart">add to cart</button>
+                        </div>
+                    </div>
+                </section>
+                <!----- Vortex ----->
+                <section id="vortex" class="store-items-container">
+                    <div class="item-card" id="">
                         <img src="image/optics/vortex/Vortex Optics StrikeFire II RedGreen Dot.jpg" 
-                        content="https://img2.activant-inet.com/custom/058686/Thumb/tSF-RG-501.jpg"
                         alt="Vortex Optics StrikeFire II Red/Green Dot">
-                        <p class="numbers">01</p>
-                        <h4>Vortex Optics StrikeFire II Red/Green Dot</h4>
-                        <p>$299.00</p>
-                    </a>
-                </div>
-                <div>
-                    <a href="">
+                        <div class="item-card-info">
+                            <p class="number">01</p>
+                            <h2>Vortex Optics StrikeFire II Red/Green Dot</h2>
+                            <p class="price">$299.00</p>
+                            <button class="add-to-cart">add to cart</button>
+                        </div>
+                    </div>
+                    <div class="item-card" id="">
                         <img src="image/optics/vortex/Vortex Optics Solo RT Monocular 8x36.jpg" 
-                        content="https://img2.activant-inet.com/custom/058686/Thumb/tSOL-3608-RT.jpg"
                         alt="Vortex Optics Solo R/T Monocular 8x36">
-                        <p class="numbers">02</p>
-                        <h4>Vortex Optics Solo R/T Monocular <br>8x36</h4>
-                        <p>$219.00</p>
-                    </a>
-                </div>
-                <div>
-                    <a href="">
+                        <div class="item-card-info">
+                            <p class="number">02</p>
+                            <h2>Vortex Optics Solo R/T Monocular <br>8x36</h2>
+                            <p class="price">$219.00</p>
+                            <button class="add-to-cart">add to cart</button>
+                        </div>
+                    </div>
+                    <div class="item-card" id="">
                         <img src="image/optics/vortex/Vortex Optics SPC-AR1 PARC MOA Red Dot.jpg" 
-                        content="https://img2.activant-inet.com/custom/058686/Thumb/tSPC-AR2.jpg"
                         alt="Vortex Optics SPC-AR1 PARC MOA Red Dot">
-                        <p class="numbers">03</p>
-                        <h4>Vortex Optics SPC-AR1 PARC MOA <br>Red Dot</h4>
-                        <p>$299.00</p>
-                    </a>
-                </div>
-                <div>
-                    <a href="">
+                        <div class="item-card-info">
+                            <p class="number">03</p>
+                            <h2>Vortex Optics SPC-AR1 PARC MOA Red Dot</h2>
+                            <p class="price">$299.00</p>
+                            <button class="add-to-cart">add to cart</button>
+                        </div>
+                    </div>
+                    <div class="item-card" id="">
                         <img src="image/optics/vortex/Vortex SPARC Solar Red Dot 2 MOA.jpg" 
-                        content="https://img2.activant-inet.com/custom/058686/Thumb/tSPC-404.jpg"
                         alt="Vortex SPARC Solar Red Dot 2 MOA">
-                        <p class="numbers">04</p>
-                        <h4>Vortex SPARC Solar Red Dot 2 MOA</h4>
-                        <p>$399.00</p>
-                    </a>
-                </div>
-                
-                <div>
-                    <a href="">
+                        <div class="item-card-info">
+                            <p class="number">04</p>
+                            <h2>Vortex SPARC Solar Red Dot 2 MOA</h2>
+                            <p class="price">$399.00</p>
+                            <button class="add-to-cart">add to cart</button>
+                        </div>
+                    </div>
+                    <div class="item-card" id="">
                         <img src="image/optics/vortex/Sure Fit Riflescope Cover Small.jpg" 
-                        content="https://img2.activant-inet.com/custom/058686/Thumb/tSF-S.jpg"
                         alt="Sure Fit Riflescope Cover: Small">
-                        <p class="numbers">05</p>
-                        <h4>Sure Fit Riflescope Cover: Small</h4>
-                        <p>$44.00</p>
-                    </a>
-                </div>
-                <div>
-                    <a href="">
+                        <div class="item-card-info">
+                            <p class="number">05</p>
+                            <h2>Sure Fit Riflescope Cover: Small</h2>
+                            <p class="price">$44.00</p>
+                            <button class="add-to-cart">add to cart</button>
+                        </div>
+                    </div>
+                    <div class="item-card" id="">
                         <img src="image/optics/vortex/Vortex Spitfire HD Gen2 5X Prism Scope.jpg" 
-                        content="https://img2.activant-inet.com/custom/058686/Thumb/tVT-SPR-500.jpg"
                         alt="Vortex Spitfire HD Gen2 5X Prism Scope">
-                        <p class="numbers">06</p>
-                        <h4>Vortex Spitfire HD Gen2 5X Prism Scope</h4>
-                        <p>$669.00</p>
-                    </a>
-                </div>
-                <div>
-                    <a href="">
+                        <div class="item-card-info">
+                            <p class="number">06</p>
+                            <h2>Vortex Spitfire HD Gen2 5X Prism Scope</h2>
+                            <p class="price">$669.00</p>
+                            <button class="add-to-cart">add to cart</button>
+                        </div>
+                    </div>
+                    <div class="item-card" id="">
                         <img src="image/optics/vortex/Vortex Optics Venom 3 MOA Red Dot.jpg" 
-                        content="https://img2.activant-inet.com/custom/058686/Thumb/tVMD-3103.jpg"
                         alt="Vortex Optics Venom 3 MOA Red Dot">
-                        <p class="numbers">07</p>
-                        <h4>Vortex Optics Venom 3 MOA Red Dot</h4>
-                        <p>$389.00</p>
-                    </a>
-                </div>
-                <div>
-                    <a href="">
+                        <div class="item-card-info">
+                            <p class="number">07</p>
+                            <h2>Vortex Optics Venom 3 MOA Red Dot</h2>
+                            <p class="price">$389.00</p>
+                            <button class="add-to-cart">add to cart</button>
+                        </div>
+                    </div>
+                    <div class="item-card" id="">
                         <img src="image/optics/vortex/Mountain Pass with 2Way Pan Head Tripod Kit (9.056.0).jpg" 
-                        content="https://img2.activant-inet.com/custom/058686/Thumb/tTR-MTP.jpg"
                         alt="Mountain Pass with 2-Way Pan Head Tripod Kit (9.0 &#45; 56.0)">
-                        <p class="numbers">08</p>
-                        <h4>Mountain Pass with 2-Way Pan Head Tripod Kit <br>(9.0" &#45; 56.0")</h4>
-                        <p>$219.00</p>
-                    </a>
-                </div>
-            </section>
-        </section>
-        <!-- Free space div-->
-        <div class="free-space"></div>
-        <!-- Free space div-->
-
-        <!----- Weaver -----> 
-        <section id="weaver">
-            <section class="product-design">
-                <div>
-                    <a href="">
+                        <div class="item-card-info">
+                            <p class="number">08</p>
+                            <h2>Mountain Pass with 2-Way Pan Head Tripod Kit (9.0 &#45; 56.0)</h2>
+                            <p class="price">$219.00</p>
+                            <button class="add-to-cart">add to cart</button>
+                        </div>
+                    </div>
+                </section>
+                <!----- Weaver ----->
+                <section id="weaver" class="store-items-container">
+                    <div class="item-card" id="">
                         <img src="image/optics/weaver/Weaver QuadLock 1 Medium Scope Rings Silver.jpg" 
-                        content="https://img2.activant-inet.com/custom/058686/Thumb/t49055.jpg"
                         alt="Weaver Quad-Lock 1 Medium Scope Rings Silver">
-                        <p class="numbers">01</p>
-                        <h4>Weaver Quad-Lock 1" Medium Scope Rings Silver</h4>
-                        <p>$27.99</p>
-                    </a>
-                </div>
-                <div>
-                    <a href="">
+                        <div class="item-card-info">
+                            <p class="number">01</p>
+                            <h2>Weaver Quad-Lock 1 Medium Scope Rings Silver</h2>
+                            <p class="price">$27.99</p>
+                            <button class="add-to-cart">add to cart</button>
+                        </div>
+                    </div>
+                    <div class="item-card" id="">
                         <img src="image/optics/weaver/Weaver Flat Top Riser Rail 20 MOA Scope Mount.jpg" 
-                        content="https://img2.activant-inet.com/custom/058686/Thumb/t99675.jpg"
                         alt="Weaver Flat Top Riser Rail 20 MOA Scope Mount">
-                        <p class="numbers">02</p>
-                        <h4>Weaver Flat Top Riser Rail 20 MOA Scope Mount</h4>
-                        <p>$69.99</p>
-                    </a>
-                </div>
-                <div>
-                    <a href="">
+                        <div class="item-card-info">
+                            <p class="number">02</p>
+                            <h2>Weaver Flat Top Riser Rail 20 MOA Scope Mount</h2>
+                            <p class="price">$69.99</p>
+                            <button class="add-to-cart">add to cart</button>
+                        </div>
+                    </div>
+                    <div class="item-card" id="">
                         <img src="image/optics/weaver/Weaver Top Mount Aluminum Bases .jpg" 
-                        content="https://img2.activant-inet.com/custom/058686/Thumb/tWEA48012.jpg"
                         alt="Weaver Top Mount Aluminum Bases #12">
-                        <p class="numbers">03</p>
-                        <h4>Weaver Top Mount Aluminum Bases #12</h4>
-                        <p>$6.99</p>
-                    </a>
-                </div>
-                <div>
-                    <a href="">
+                        <div class="item-card-info">
+                            <p class="number">03</p>
+                            <h2>Weaver Top Mount Aluminum Bases #12</h2>
+                            <p class="price">$6.99</p>
+                            <button class="add-to-cart">add to cart</button>
+                        </div>
+                    </div>
+                    <div class="item-card" id="">
                         <img src="image/optics/weaver/Weaver 4-hole Skeleton 30mm Medium Scope Rings Black.jpg" 
-                        content="https://img2.activant-inet.com/custom/058686/Thumb/t48365.jpg"
                         alt="Weaver 4-hole Skeleton 30mm Medium Scope Rings Black">
-                        <p class="numbers">04</p>
-                        <h4>Weaver 4-hole Skeleton 30mm Medium Scope Rings Black</h4>
-                        <p>$45.99</p>
-                    </a>
-                </div>
+                        <div class="item-card-info">
+                            <p class="number">04</p>
+                            <h2>Weaver 4-hole Skeleton 30mm Medium Scope Rings Black</h2>
+                            <p class="price">$45.99</p>
+                            <button class="add-to-cart">add to cart</button>
+                        </div>
+                    </div>
             </section>
-        </section>
-        <!-- Free space div-->
-        <div class="free-space"></div>
-        <!-- Free space div-->
-    </section>
-        <footer>
+        </div>
+    </div>
+    <footer>
+        <div class="footer-container">
             <h3>copyright &#169 2023 fireforce.</h2>
             <p>all rights reserved</p>
-        </footer>
+        </div>
+    </footer>
 </body>
 </html>
-
 
 
